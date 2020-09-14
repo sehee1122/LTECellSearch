@@ -1,0 +1,3 @@
+clear;
+
+Wprint(16);
