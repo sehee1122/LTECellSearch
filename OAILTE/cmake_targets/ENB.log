@@ -1,0 +1,99 @@
+# /dev/cpu_dma_latency set to 0us
+log init done
+Running with XFORMS!
+num component carrier 1 
+WARNING: setting 'gtpu_log_level' not found in configuration file
+WARNING: setting 'gtpu_log_verbosity' not found in configuration file
+WARNING: setting 'udp_log_level' not found in configuration file
+WARNING: setting 'udp_log_verbosity' not found in configuration file
+WARNING: setting 'osa_log_level' not found in configuration file
+WARNING: setting 'osa_log_verbosity' not found in configuration file
+
+----------------------------------------------------------------------
+ ENB CONFIG FILE CONTENT LOADED (TBC):
+----------------------------------------------------------------------
+ENB CONFIG for instance 0:
+
+	eNB name:           	eNB_Eurecom_LTEBox:
+	eNB ID:             	3584:
+	Cell type:          	CELL_MACRO_ENB:
+	TAC:                	1:
+	MCC:                	208:
+	MNC:                	92:
+
+	node_function for CC 0:      	eNodeB_3GPP:
+	node_timing for CC 0:        	synch_to_ext_device:
+	node_synch_ref for CC 0:     	0:
+	eutra band for CC 0:         	7:
+	downlink freq for CC 0:      	2660000000:
+	uplink freq offset for CC 0: 	-120000000:
+
+	Cell ID for CC 0:	0:
+	N_RB_DL for CC 0:	25:
+	nb_antenna_ports for CC 0:	1:
+	nb_antennas_tx for CC 0:	1:
+	nb_antennas_rx for CC 0:	1:
+	rach_numberOfRA_Preambles for CC 0:	15:
+	rach_preamblesGroupAConfig for CC 0:	0:
+	rach_powerRampingStep for CC 0:	2:
+	rach_preambleInitialReceivedTargetPower for CC 0:	8:
+	rach_preambleTransMax for CC 0:	6:
+	rach_raResponseWindowSize for CC 0:	7:
+	rach_macContentionResolutionTimer for CC 0:	5:
+	rach_maxHARQ_Msg3Tx for CC 0:	4:
+	bcch_modificationPeriodCoeff for CC 0:	0:
+	pcch_defaultPagingCycle for CC 0:	2:
+	pcch_nB for CC 0:	2:
+	prach_root for CC 0:	0:
+	prach_config_index for CC 0:	0:
+	prach_high_speed for CC 0:	0:
+	prach_zero_correlation for CC 0:	1:
+	prach_freq_offset for CC 0:	2:
+	pdsch_referenceSignalPower for CC 0:	-24:
+	pdsch_p_b for CC 0:	0:
+	pusch_n_SB for CC 0:	1:
+	pusch_hoppingMode for CC 0:	0:
+	pusch_hoppingOffset for CC 0:	0:
+	pusch_enable64QAM for CC 0:	0:
+	pusch_groupHoppingEnabled for CC 0:	1:
+	pusch_groupAssignment for CC 0:	0:
+	pusch_sequenceHoppingEnabled for CC 0:	0:
+	pusch_nDMRS1 for CC 0:	1:
+	pucch_delta_shift for CC 0:	0:
+	pucch_nRB_CQI for CC 0:	1:
+	pucch_nCS_AN for CC 0:	0:
+	srs_enable for CC 0:	0:
+	pusch_p0_Nominal for CC 0:	-90:
+	pucch_p0_Nominal for CC 0:	-96:
+	pusch_alpha for CC 0:	7:
+	pucch_deltaF_Format1 for CC 0:	2:
+	pucch_deltaF_Format1b for CC 0:	1:
+	pucch_deltaF_Format2 for CC 0:	1:
+	pucch_deltaF_Format2a for CC 0:	1:
+	pucch_deltaF_Format2b for CC 0:	1:
+	msg3_delta_Preamble for CC 0:	6:
+	ul_CyclicPrefixLength for CC 0:	0:
+	ue_TimersAndConstants_t300 for CC 0:	5:
+	ue_TimersAndConstants_t301 for CC 0:	5:
+	ue_TimersAndConstants_t310 for CC 0:	5:
+	ue_TimersAndConstants_n310 for CC 0:	7:
+	ue_TimersAndConstants_t311 for CC 0:	3:
+	ue_TimersAndConstants_n311 for CC 0:	0:
+	ue_TransmissionMode for CC 0:	0:
+
+	Global log level:  	info
+	HW log level:      	info
+	PHY log level:     	info
+	MAC log level:     	info
+	RLC log level:     	info
+	PDCP log level:    	info
+	RRC log level:     	info
+	UDP log level:     	info
+	GTP log level:     	info
+	OSA log level:     	info
+
+--------------------------------------------------------
+Downlink frequency/ uplink offset of CC_id 0 set to 2660000000/-120000000
+configuring for eNB
+CPU Freq is 3.696199 
+[NETLINK] Error opening socket -1 (93:Protocol not supported)

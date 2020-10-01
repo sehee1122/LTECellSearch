@@ -1,0 +1,815 @@
+# /dev/cpu_dma_latency set to 0us
+log init done
+Downlink for CC_id 0 frequency set to 2660000000
+Running with XFORMS!
+configuring for UE
+CPU Freq is 3.696232 
+[NETLINK]Opened socket with fd 39
+reported resolution = 1 ns
+[HW][I][main] Version: Branch: master Abrev. Hash: ae0494b Date: Fri Nov 17 15:59:21 2017 +0100
+[PHY][I][main] Set nb_rx_antenna 1 , nb_tx_antenna 1 
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+Initializing UE vars (abstraction 0) for eNB TXant 1, UE RXant 1
+PHY_vars_UE_g[0][0] = 0x7f9107380010
+UE[0]->mode = 0
+CPU Freq is 3.696228 
+frame_parms->N_RB_DL=25
+frame_parms->N_RB_UL=25
+frame_parms->Nid_cell=0
+frame_parms->Ncp=0
+frame_parms->Ncp_UL=0
+frame_parms->nushift=0
+frame_parms->frame_type=0
+frame_parms->tdd_config=3
+frame_parms->tdd_config_S=0
+frame_parms->mode1_flag=0
+frame_parms->nb_antenna_ports_eNB=1
+frame_parms->nb_antennas_tx=1
+frame_parms->nb_antennas_rx=1
+frame_parms->ofdm_symbol_size=512
+frame_parms->nb_prefix_samples=36
+frame_parms->nb_prefix_samples0=40
+frame_parms->first_carrier_offset=362
+frame_parms->samples_per_tti=7680
+frame_parms->symbols_per_tti=14
+HW: Configuring card 0, nb_antennas_tx/rx 1/1
+ETHERNET: Configuring UE ETH for 127.0.0.1:51000
+Card 0, channel 0, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 2660000000.000000, rx_freq 2660000000.000000
+Card 0, channel 1, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 0, channel 2, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 0, channel 3, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 0.000000, rx_freq 0.000000
+HW: Configuring card 1, nb_antennas_tx/rx 1/1
+ETHERNET: Configuring UE ETH for 127.0.0.1:51000
+Card 1, channel 0, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 2660000000.000000, rx_freq 2660000000.000000
+Card 1, channel 1, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 1, channel 2, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 1, channel 3, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 0.000000, rx_freq 0.000000
+HW: Configuring card 2, nb_antennas_tx/rx 1/1
+ETHERNET: Configuring UE ETH for 127.0.0.1:51000
+Card 2, channel 0, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 2660000000.000000, rx_freq 2660000000.000000
+Card 2, channel 1, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 2, channel 2, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 2, channel 3, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 0.000000, rx_freq 0.000000
+HW: Configuring card 3, nb_antennas_tx/rx 1/1
+ETHERNET: Configuring UE ETH for 127.0.0.1:51000
+Card 3, channel 0, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 2660000000.000000, rx_freq 2660000000.000000
+Card 3, channel 1, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 3, channel 2, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 3, channel 3, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 0.000000, rx_freq 0.000000
+HW: Configuring card 4, nb_antennas_tx/rx 1/1
+ETHERNET: Configuring UE ETH for 127.0.0.1:51000
+Card 4, channel 0, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 2660000000.000000, rx_freq 2660000000.000000
+Card 4, channel 1, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 4, channel 2, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 4, channel 3, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 0.000000, rx_freq 0.000000
+HW: Configuring card 5, nb_antennas_tx/rx 1/1
+ETHERNET: Configuring UE ETH for 127.0.0.1:51000
+Card 5, channel 0, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 2660000000.000000, rx_freq 2660000000.000000
+Card 5, channel 1, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 5, channel 2, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 5, channel 3, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 0.000000, rx_freq 0.000000
+HW: Configuring card 6, nb_antennas_tx/rx 1/1
+ETHERNET: Configuring UE ETH for 127.0.0.1:51000
+Card 6, channel 0, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 2660000000.000000, rx_freq 2660000000.000000
+Card 6, channel 1, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 6, channel 2, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 6, channel 3, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 0.000000, rx_freq 0.000000
+HW: Configuring card 7, nb_antennas_tx/rx 1/1
+ETHERNET: Configuring UE ETH for 127.0.0.1:51000
+Card 7, channel 0, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 2660000000.000000, rx_freq 2660000000.000000
+Card 7, channel 1, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 7, channel 2, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 7, channel 3, Setting tx_gain 90.000000, rx_gain 115.000000, tx_freq 0.000000, rx_freq 0.000000
+[HW][I][main] CPU Affinity of main() function is...  CPU_0  CPU_1  CPU_2  CPU_3  CPU_4  CPU_5 
+[PHY][I][main] Intializing L2
+[MAC][I][l2_init] [MAIN] MAC_INIT_GLOBAL_PARAM IN...
+[MAC][I][mac_init_global_param] [MAIN] CALLING RLC_MODULE_INIT...
+[MAC][I][mac_init_global_param] [MAIN] RLC_MODULE_INIT OK, malloc16 for mac_rlc_xface...
+[MAC][I][mac_init_global_param] [MAIN] malloc16 OK, mac_rlc_xface @ 0x19e23700
+[MAC][I][mac_init_global_param] [MAIN] RLC interface setup and init
+[PDCP][I][pdcp_layer_init] PDCP layer has been initialized
+[MAC][I][mac_init_global_param] [MAIN] Init Global Param Done
+[MAC][I][l2_init] [MAIN] init eNB MAC functions  
+[MAC][I][l2_init] [MAIN] init UE MAC functions 
+[MAC][I][l2_init] [MAIN] PHY Frame configuration 
+[MAC][I][mac_top_init] [MAIN] Init function start:Nb_UE_INST=1
+[MAC][I][ue_init_mac] [UE0] Applying default macMainConfig
+[MAC][I][mac_top_init] [MAIN] Init function start:Nb_eNB_INST=0
+[MAC][I][mac_top_init] [MAIN] calling RRC
+[RRC][I][fill_ue_capability] Allocating 408 bytes for UE_EUTRA_Capability
+[PHY][I][fill_ue_capability] [RRC]UE Capability encoded, 15 bytes (120 bits)
+[RRC][I][openair_rrc_top_init] [UE] eMBMS active state is 0 
+[MAC][I][mac_top_init] [MAIN][INIT] Init function finished
+ITTI tasks created
+Filling UE band info
+Band 3 (3) : DL 1805000000..1880000000 Hz, UL 1710000000..1785000000 Hz, Duplex FDD 
+Band 20 (20) : DL 791000000..821000000 Hz, UL 832000000..862000000 Hz, Duplex FDD 
+Band 7 (7) : DL 2620000000..2690000000 Hz, UL 2500000000..2570000000 Hz, Duplex FDD 
+Band 38 (38) : DL 2570000000..2630000000 Hz, UL 2570000000..2620000000 Hz, Duplex TDD 
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+Scope thread has priority 2
+Scope thread created, ret=0
+UE threads created by 6784
+[PHY][I][setup_ue_buffers] Mapping UE CC_id 0, rx_ant 0, freq 2660000000 on card 0, chain 0
+CPU Affinity of thread UHD Threads is  0  1  2  3  4  5 
+waiting for sync (UHD Threads)
+Locked sync_mutex, waiting (UHD Threads)
+[PHY][I][setup_ue_buffers] Mapping UE CC_id 0, tx_ant 0, freq 2660000000 on card 0, chain 0
+Sending sync to all threads
+TYPE <CTRL-C> TO TERMINATE
+Entering ITTI signals handler
+started UHD Threads as PID: 7238
+[PHY][I][device_init] Checking for USRPs : UHD 3.11.1.0-release (3.11.1)
+[PHY][I][device_init] Found USRP B200
+[PHY][I][set_rx_gain_offset] cal 0: freq 3500000000.000000, offset 44.000000, diff 840000000.000000
+[PHY][I][set_rx_gain_offset] cal 1: freq 2660000000.000000, offset 49.800000, diff 0.000000
+[PHY][I][set_rx_gain_offset] cal 2: freq 2300000000.000000, offset 51.000000, diff 360000000.000000
+[PHY][I][set_rx_gain_offset] cal 3: freq 1880000000.000000, offset 53.000000, diff 780000000.000000
+[PHY][I][set_rx_gain_offset] cal 4: freq 816000000.000000, offset 57.000000, diff 1844000000.000000
+[PHY][I][device_init] RX Gain 0 115.000000 (55.800000) => 59.200000 (max 76.000000)
+[PHY][I][device_init] Actual master clock: 30.720000MHz...
+[PHY][I][device_init] RF board max packet size 3836, size for 100µs jitter 768 
+[PHY][I][device_init] rx_max_num_samps 768
+[PHY][I][device_init] RX Channel 0
+[PHY][I][device_init]   Actual RX sample rate: 7.680000MSps...
+[PHY][I][device_init]   Actual RX frequency: 2.660000GHz...
+[PHY][I][device_init]   Actual RX gain: 59.000000...
+[PHY][I][device_init]   Actual RX bandwidth: 20.000000M...
+[PHY][I][device_init]   Actual RX antenna: RX2...
+[PHY][I][device_init] TX Channel 0
+[PHY][I][device_init]   Actual TX sample rate: 7.680000MSps...
+[PHY][I][device_init]   Actual TX frequency: 2.660000GHz...
+[PHY][I][device_init]   Actual TX gain: 89.750000...
+[PHY][I][device_init]   Actual TX bandwidth: 20.000000M...
+[PHY][I][device_init]   Actual TX antenna: TX/RX...
+[PHY][I][device_init] Device timestamp: 2.225244...
+[RRH] has loaded USRP B200 device.
+Init_UE_threads rtd 0 proc 0 nb_threads 2 i 0
+Init_UE_threads rtd 1 proc 1 nb_threads 2 i 1
+CPU Affinity of thread UE_0_proc_0 is  0  1  2  3  4  5 
+[PHY][I][trx_usrp_start] Time in secs now: 17106229 
+CPU Affinity of thread UE_0_proc_1 is  0  1  2  3  4  5 
+[PHY][I][trx_usrp_start] Time in secs last pps: 14155611 
+waiting for sync (UE_0_proc_0)
+Locked sync_mutex, waiting (UE_0_proc_0)
+started UE_0_proc_0 as PID: 7252
+CPU Affinity of thread sync UE 0
+ is  0  1  2  3  4  5 
+waiting for sync (UE_0_proc_1)
+Locked sync_mutex, waiting (UE_0_proc_1)
+started UE_0_proc_1 as PID: 7253
+waiting for sync (sync UE 0
+)
+Locked sync_mutex, waiting (sync UE 0
+)
+started sync UE 0
+ as PID: 7254
+[PHY][I][UE_thread_synch] [SCHED][UE] Check absolute frequency DL 2660000000, UL 2540000000 (oai_exit 0, rx_num_channels 1)
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[PHY][E][ue_rrc_measurements] Not yet implemented: noise power calculation when prefix length = EXTENDED
+[0m[PHY][I][UE_thread_synch] [initial_sync] trying carrier off -100 Hz, rxgain 115 (DL 2659999900, UL 2539999900)
+Setting USRP TX Freq 2539999900.000000, RX Freq 2659999900.000000
+[1;31m[PHY][E][trx_usrp_read] [recv] received 0 samples out of 7680
+[0m[1;31m[PHY][E][trx_usrp_read] ERROR_CODE_OVERFLOW (Out of sequence error)
+
+[0m[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[HW][E][initial_sync] Ignore MIB with high freq offset [1234 Hz] estimation 
+[0m[PHY][I][UE_thread_synch] [initial_sync] trying carrier off 100 Hz, rxgain 115 (DL 2660000100, UL 2540000100)
+Setting USRP TX Freq 2540000100.000000, RX Freq 2660000100.000000
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[HW][E][initial_sync] Ignore MIB with high freq offset [1443 Hz] estimation 
+[0m[PHY][I][UE_thread_synch] [initial_sync] trying carrier off -200 Hz, rxgain 115 (DL 2659999800, UL 2539999800)
+Setting USRP TX Freq 2539999800.000000, RX Freq 2659999800.000000
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[HW][E][initial_sync] Ignore MIB with high freq offset [1151 Hz] estimation 
+[0m[PHY][I][UE_thread_synch] [initial_sync] trying carrier off 200 Hz, rxgain 115 (DL 2660000200, UL 2540000200)
+Setting USRP TX Freq 2540000200.000000, RX Freq 2660000200.000000
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[HW][E][initial_sync] Ignore MIB with high freq offset [1549 Hz] estimation 
+[0m[PHY][I][UE_thread_synch] [initial_sync] trying carrier off -300 Hz, rxgain 115 (DL 2659999700, UL 2539999700)
+Setting USRP TX Freq 2539999700.000000, RX Freq 2659999700.000000
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[HW][E][initial_sync] Ignore MIB with high freq offset [1038 Hz] estimation 
+[0m[PHY][I][UE_thread_synch] [initial_sync] trying carrier off 300 Hz, rxgain 115 (DL 2660000300, UL 2540000300)
+Setting USRP TX Freq 2540000300.000000, RX Freq 2660000300.000000
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[HW][E][initial_sync] Ignore MIB with high freq offset [1625 Hz] estimation 
+[0m[PHY][I][UE_thread_synch] [initial_sync] trying carrier off -400 Hz, rxgain 115 (DL 2659999600, UL 2539999600)
+Setting USRP TX Freq 2539999600.000000, RX Freq 2659999600.000000
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[HW][E][initial_sync] Ignore MIB with high freq offset [930 Hz] estimation 
+[0m[PHY][I][UE_thread_synch] [initial_sync] trying carrier off 400 Hz, rxgain 115 (DL 2660000400, UL 2540000400)
+Setting USRP TX Freq 2540000400.000000, RX Freq 2660000400.000000
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[HW][E][initial_sync] Ignore MIB with high freq offset [1741 Hz] estimation 
+[0m[PHY][I][UE_thread_synch] [initial_sync] trying carrier off -500 Hz, rxgain 115 (DL 2659999500, UL 2539999500)
+Setting USRP TX Freq 2539999500.000000, RX Freq 2659999500.000000
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[HW][E][initial_sync] Ignore MIB with high freq offset [816 Hz] estimation 
+[0m[PHY][I][UE_thread_synch] [initial_sync] trying carrier off 500 Hz, rxgain 115 (DL 2660000500, UL 2540000500)
+Setting USRP TX Freq 2540000500.000000, RX Freq 2660000500.000000
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[HW][E][initial_sync] Ignore MIB with high freq offset [-1690 Hz] estimation 
+[0m[PHY][I][UE_thread_synch] [initial_sync] trying carrier off -600 Hz, rxgain 115 (DL 2659999400, UL 2539999400)
+Setting USRP TX Freq 2539999400.000000, RX Freq 2659999400.000000
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[HW][E][initial_sync] Ignore MIB with high freq offset [710 Hz] estimation 
+[0m[PHY][I][UE_thread_synch] [initial_sync] trying carrier off 600 Hz, rxgain 115 (DL 2660000600, UL 2540000600)
+Setting USRP TX Freq 2540000600.000000, RX Freq 2660000600.000000
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[PHY][E][ue_rrc_measurements] Not yet implemented: noise power calculation when prefix length = EXTENDED
+[0m[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[PHY][E][ue_rrc_measurements] Not yet implemented: noise power calculation when prefix length = EXTENDED
+[0m[PHY][I][UE_thread_synch] [initial_sync] trying carrier off -700 Hz, rxgain 115 (DL 2659999300, UL 2539999300)
+Setting USRP TX Freq 2539999300.000000, RX Freq 2659999300.000000
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[HW][E][initial_sync] Ignore MIB with high freq offset [593 Hz] estimation 
+[0m[PHY][I][UE_thread_synch] [initial_sync] trying carrier off 700 Hz, rxgain 115 (DL 2660000700, UL 2540000700)
+Setting USRP TX Freq 2540000700.000000, RX Freq 2660000700.000000
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[PHY][E][ue_rrc_measurements] Not yet implemented: noise power calculation when prefix length = EXTENDED
+[0m[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[PHY][E][ue_rrc_measurements] Not yet implemented: noise power calculation when prefix length = EXTENDED
+[0m[PHY][I][UE_thread_synch] [initial_sync] trying carrier off -800 Hz, rxgain 115 (DL 2659999200, UL 2539999200)
+Setting USRP TX Freq 2539999200.000000, RX Freq 2659999200.000000
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[HW][E][initial_sync] Ignore MIB with high freq offset [504 Hz] estimation 
+[0m[PHY][I][UE_thread_synch] [initial_sync] trying carrier off 800 Hz, rxgain 115 (DL 2660000800, UL 2540000800)
+Setting USRP TX Freq 2540000800.000000, RX Freq 2660000800.000000
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[PHY][E][ue_rrc_measurements] Not yet implemented: noise power calculation when prefix length = EXTENDED
+[0m[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[PHY][E][ue_rrc_measurements] Not yet implemented: noise power calculation when prefix length = EXTENDED
+[0m[PHY][I][UE_thread_synch] [initial_sync] trying carrier off -900 Hz, rxgain 115 (DL 2659999100, UL 2539999100)
+Setting USRP TX Freq 2539999100.000000, RX Freq 2659999100.000000
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[HW][E][initial_sync] Ignore MIB with high freq offset [373 Hz] estimation 
+[0m[PHY][I][UE_thread_synch] [initial_sync] trying carrier off 900 Hz, rxgain 115 (DL 2660000900, UL 2540000900)
+Setting USRP TX Freq 2540000900.000000, RX Freq 2660000900.000000
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[PHY][E][ue_rrc_measurements] Not yet implemented: noise power calculation when prefix length = EXTENDED
+[0m[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[PHY][E][ue_rrc_measurements] Not yet implemented: noise power calculation when prefix length = EXTENDED
+[0m[PHY][I][UE_thread_synch] [initial_sync] trying carrier off -1000 Hz, rxgain 115 (DL 2659999000, UL 2539999000)
+Setting USRP TX Freq 2539999000.000000, RX Freq 2659999000.000000
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[HW][E][initial_sync] Ignore MIB with high freq offset [251 Hz] estimation 
+[0m[PHY][I][UE_thread_synch] [initial_sync] trying carrier off 1000 Hz, rxgain 115 (DL 2660001000, UL 2540001000)
+Setting USRP TX Freq 2540001000.000000, RX Freq 2660001000.000000
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[PHY][E][ue_rrc_measurements] Not yet implemented: noise power calculation when prefix length = EXTENDED
+[0m[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[PHY][E][ue_rrc_measurements] Not yet implemented: noise power calculation when prefix length = EXTENDED
+[0m[PHY][I][UE_thread_synch] [initial_sync] trying carrier off -1100 Hz, rxgain 115 (DL 2659998900, UL 2539998900)
+Setting USRP TX Freq 2539998900.000000, RX Freq 2659998900.000000
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][initial_sync] [UE0] In synch, rx_offset 58228 samples
+[PHY][I][initial_sync] [UE 0] Frame 736 RRC Measurements => rssi -64.4 dBm (dig 50.6 dB, gain 115), N0 -129 dBm,  rsrp -89.2 dBm/RE, rsrq 9.0 dB
+[PHY][I][initial_sync] [UE 0] Frame 736 MIB Information => FDD, NORMAL, NidCell 0, N_RB_DL 25, PHICH DURATION 0, PHICH RESOURCE 1/6, TX_ANT 1
+[PHY][I][initial_sync] [UE 0] Frame 736 Measured Carrier Frequency 2659998758 Hz (offset 142 Hz)
+[HW][I][UE_thread_synch] Got synch: hw_slot_offset 15, carrier off -1100 Hz, rxgain 115 (DL 2659998900, UL 2539998900), UE_scan_carrier 1
+Setting USRP TX Freq 2539998758.000000, RX Freq 2659998758.000000
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][initial_sync] [UE0] In synch, rx_offset 58232 samples
+[PHY][I][initial_sync] [UE 0] Frame 836 RRC Measurements => rssi -64.5 dBm (dig 50.5 dB, gain 115), N0 -127 dBm,  rsrp -89.2 dBm/RE, rsrq 9.0 dB
+[PHY][I][initial_sync] [UE 0] Frame 836 MIB Information => FDD, NORMAL, NidCell 0, N_RB_DL 25, PHICH DURATION 0, PHICH RESOURCE 1/6, TX_ANT 1
+[PHY][I][initial_sync] [UE 0] Frame 836 Measured Carrier Frequency 2659998758 Hz (offset 0 Hz)
+[HW][I][UE_thread_synch] Got synch: hw_slot_offset 15, carrier off 0 Hz, rxgain 115 (DL 2659998758, UL 2539998758), UE_scan_carrier 0
+Setting USRP TX Freq 2539998758.000000, RX Freq 2659998758.000000
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][UE_thread] Resynchronizing RX by 58232 samples (mode = 0)
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[UE 0] frame 941, subframe 0: Adjusting frame counter (PBCH ant_tx=1, frame_tx=941, phase 1, rx_offset 0) => new frame 941
+[UE 0] frame 941, subframe 0: Adjusting frame counter (PBCH ant_tx=1, frame_tx=941, phase 1, rx_offset 0) => new frame 941
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 942, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[RRC][I][decode_SIB1] [UE 0] : Dumping SIB 1
+[RRC][I][decode_SIB1] PLMN MCC 208, MNC 92, TAC 0x0001
+[RRC][I][decode_SIB1] cellReservedForOperatorUse                 : raw:1 decoded:notReserved
+[RRC][I][decode_SIB1] Found Unknown operator (no entry in internal table)
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellIdentity         : raw:3584 decoded:00.00.e0.00
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellBarred           : raw:1 decoded:notBarred
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.intraFreqReselection : raw:1 decoded:notAllowed
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Indication       : 0
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Identity         : not defined
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMin               : -65
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMinOffset         : not defined
+[RRC][I][decode_SIB1] p_Max                                      : not defined
+[RRC][I][decode_SIB1] freqBandIndicator                          : 7
+[RRC][I][decode_SIB1] si_Periodicity[0]                          : rf8
+[RRC][I][decode_SIB1] siSchedulingInfoSIBType[0]                 :  SIB3 
+[RRC][I][decode_SIB1] siWindowLength                             : 20ms
+[RRC][I][decode_SIB1] systemInfoValueTag                         : 0
+[RRC][I][decode_SIB1] [FRAME unknown][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (SIB1 params eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 944, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[RRC][I][decode_SIB1] [UE 0] : Dumping SIB 1
+[RRC][I][decode_SIB1] PLMN MCC 208, MNC 92, TAC 0x0001
+[RRC][I][decode_SIB1] cellReservedForOperatorUse                 : raw:1 decoded:notReserved
+[RRC][I][decode_SIB1] Found Unknown operator (no entry in internal table)
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellIdentity         : raw:3584 decoded:00.00.e0.00
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellBarred           : raw:1 decoded:notBarred
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.intraFreqReselection : raw:1 decoded:notAllowed
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Indication       : 0
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Identity         : not defined
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMin               : -65
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMinOffset         : not defined
+[RRC][I][decode_SIB1] p_Max                                      : not defined
+[RRC][I][decode_SIB1] freqBandIndicator                          : 7
+[RRC][I][decode_SIB1] si_Periodicity[0]                          : rf8
+[RRC][I][decode_SIB1] siSchedulingInfoSIBType[0]                 :  SIB3 
+[RRC][I][decode_SIB1] siWindowLength                             : 20ms
+[RRC][I][decode_SIB1] systemInfoValueTag                         : 0
+[RRC][I][decode_SIB1] [FRAME unknown][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (SIB1 params eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 945, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 946, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[RRC][I][decode_SIB1] [UE 0] : Dumping SIB 1
+[RRC][I][decode_SIB1] PLMN MCC 208, MNC 92, TAC 0x0001
+[RRC][I][decode_SIB1] cellReservedForOperatorUse                 : raw:1 decoded:notReserved
+[RRC][I][decode_SIB1] Found Unknown operator (no entry in internal table)
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellIdentity         : raw:3584 decoded:00.00.e0.00
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellBarred           : raw:1 decoded:notBarred
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.intraFreqReselection : raw:1 decoded:notAllowed
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Indication       : 0
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Identity         : not defined
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMin               : -65
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMinOffset         : not defined
+[RRC][I][decode_SIB1] p_Max                                      : not defined
+[RRC][I][decode_SIB1] freqBandIndicator                          : 7
+[RRC][I][decode_SIB1] si_Periodicity[0]                          : rf8
+[RRC][I][decode_SIB1] siSchedulingInfoSIBType[0]                 :  SIB3 
+[RRC][I][decode_SIB1] siWindowLength                             : 20ms
+[RRC][I][decode_SIB1] systemInfoValueTag                         : 0
+[RRC][I][decode_SIB1] [FRAME unknown][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (SIB1 params eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 948, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[RRC][I][decode_SIB1] [UE 0] : Dumping SIB 1
+[RRC][I][decode_SIB1] PLMN MCC 208, MNC 92, TAC 0x0001
+[RRC][I][decode_SIB1] cellReservedForOperatorUse                 : raw:1 decoded:notReserved
+[RRC][I][decode_SIB1] Found Unknown operator (no entry in internal table)
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellIdentity         : raw:3584 decoded:00.00.e0.00
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellBarred           : raw:1 decoded:notBarred
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.intraFreqReselection : raw:1 decoded:notAllowed
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Indication       : 0
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Identity         : not defined
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMin               : -65
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMinOffset         : not defined
+[RRC][I][decode_SIB1] p_Max                                      : not defined
+[RRC][I][decode_SIB1] freqBandIndicator                          : 7
+[RRC][I][decode_SIB1] si_Periodicity[0]                          : rf8
+[RRC][I][decode_SIB1] siSchedulingInfoSIBType[0]                 :  SIB3 
+[RRC][I][decode_SIB1] siWindowLength                             : 20ms
+[RRC][I][decode_SIB1] systemInfoValueTag                         : 0
+[RRC][I][decode_SIB1] [FRAME unknown][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (SIB1 params eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 950, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[RRC][I][decode_SIB1] [UE 0] : Dumping SIB 1
+[RRC][I][decode_SIB1] PLMN MCC 208, MNC 92, TAC 0x0001
+[RRC][I][decode_SIB1] cellReservedForOperatorUse                 : raw:1 decoded:notReserved
+[RRC][I][decode_SIB1] Found Unknown operator (no entry in internal table)
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellIdentity         : raw:3584 decoded:00.00.e0.00
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellBarred           : raw:1 decoded:notBarred
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.intraFreqReselection : raw:1 decoded:notAllowed
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Indication       : 0
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Identity         : not defined
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMin               : -65
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMinOffset         : not defined
+[RRC][I][decode_SIB1] p_Max                                      : not defined
+[RRC][I][decode_SIB1] freqBandIndicator                          : 7
+[RRC][I][decode_SIB1] si_Periodicity[0]                          : rf8
+[RRC][I][decode_SIB1] siSchedulingInfoSIBType[0]                 :  SIB3 
+[RRC][I][decode_SIB1] siWindowLength                             : 20ms
+[RRC][I][decode_SIB1] systemInfoValueTag                         : 0
+[RRC][I][decode_SIB1] [FRAME unknown][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (SIB1 params eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[PHY][I][lte_adjust_synch] [UE0] Sending synch status to higher layers
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 952, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[RRC][I][decode_SIB1] [UE 0] : Dumping SIB 1
+[RRC][I][decode_SIB1] PLMN MCC 208, MNC 92, TAC 0x0001
+[RRC][I][decode_SIB1] cellReservedForOperatorUse                 : raw:1 decoded:notReserved
+[RRC][I][decode_SIB1] Found Unknown operator (no entry in internal table)
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellIdentity         : raw:3584 decoded:00.00.e0.00
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellBarred           : raw:1 decoded:notBarred
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.intraFreqReselection : raw:1 decoded:notAllowed
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Indication       : 0
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Identity         : not defined
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMin               : -65
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMinOffset         : not defined
+[RRC][I][decode_SIB1] p_Max                                      : not defined
+[RRC][I][decode_SIB1] freqBandIndicator                          : 7
+[RRC][I][decode_SIB1] si_Periodicity[0]                          : rf8
+[RRC][I][decode_SIB1] siSchedulingInfoSIBType[0]                 :  SIB3 
+[RRC][I][decode_SIB1] siWindowLength                             : 20ms
+[RRC][I][decode_SIB1] systemInfoValueTag                         : 0
+[RRC][I][decode_SIB1] [FRAME unknown][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (SIB1 params eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 953, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[RRC][I][decode_SI] [UE 0] Frame 953 Found SIB2 from eNB 0
+[RRC][I][dump_sib2] ac_BarringInfo : not defined
+[RRC][I][dump_sib2] radioResourceConfigCommon.rach_ConfigCommon.preambleInfo.numberOfRA_Preambles  : raw:15 decoded:n64
+[RRC][I][dump_sib2] radioResourceConfigCommon.rach_ConfigCommon.preambleInfo.preamblesGroupAConfig : not defined
+[RRC][I][dump_sib2] radioResourceConfigCommon.rach_ConfigCommon.powerRampingParameters.powerRampingStep                   : raw:2 decoded:dB4
+[RRC][I][dump_sib2] radioResourceConfigCommon.rach_ConfigCommon.powerRampingParameters.preambleInitialReceivedTargetPower : raw:8 decoded:dBm-104
+[RRC][I][dump_sib2] radioResourceConfigCommon.rach_ConfigCommon.ra_SupervisionInfo.preambleTransMax              : raw:6 decoded:n10
+[RRC][I][dump_sib2] radioResourceConfigCommon.rach_ConfigCommon.ra_SupervisionInfo.ra_ResponseWindowSize         : raw:7 decoded:sf10
+[RRC][I][dump_sib2] radioResourceConfigCommon.rach_ConfigCommon.ra_SupervisionInfo.mac_ContentionResolutionTimer : raw:5 decoded:sf48
+[RRC][I][dump_sib2] radioResourceConfigCommon.rach_ConfigCommon.maxHARQ_Msg3Tx : 4
+[RRC][I][dump_sib2] radioResourceConfigCommon.bcch_Config.modificationPeriodCoeff : raw:0 decoded:n2
+[RRC][I][dump_sib2] radioResourceConfigCommon.pcch_Config.defaultPagingCycle : raw:2 decoded:rf64
+[RRC][I][dump_sib2] radioResourceConfigCommon.pcch_Config.nB                 : raw:2 decoded:oneT
+[RRC][I][dump_sib2] radioResourceConfigCommon.prach_Config.rootSequenceIndex                          : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.prach_Config.prach_ConfigInfo.prach_ConfigIndex         : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.prach_Config.prach_ConfigInfo.highSpeedFlag             : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.prach_Config.prach_ConfigInfo.zeroCorrelationZoneConfig : 1
+[RRC][I][dump_sib2] radioResourceConfigCommon.prach_Config.prach_ConfigInfo.prach_FreqOffset          : 2
+[RRC][I][dump_sib2] radioResourceConfigCommon.pdsch_ConfigCommon.referenceSignalPower : -24
+[RRC][I][dump_sib2] radioResourceConfigCommon.pdsch_ConfigCommon.p_b                  : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.pusch_ConfigCommon.pusch_ConfigBasic.n_SB                : 1
+[RRC][I][dump_sib2] radioResourceConfigCommon.pusch_ConfigCommon.pusch_ConfigBasic.hoppingMode         : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.pusch_ConfigCommon.pusch_ConfigBasic.pusch_HoppingOffset : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.pusch_ConfigCommon.pusch_ConfigBasic.enable64QAM         : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.pusch_ConfigCommon.ul_ReferenceSignalsPUSCH.groupHoppingEnabled    : 1
+[RRC][I][dump_sib2] radioResourceConfigCommon.pusch_ConfigCommon.ul_ReferenceSignalsPUSCH.groupAssignmentPUSCH   : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.pusch_ConfigCommon.ul_ReferenceSignalsPUSCH.sequenceHoppingEnabled : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.pusch_ConfigCommon.ul_ReferenceSignalsPUSCH.cyclicShift            : 1
+[RRC][I][dump_sib2] radioResourceConfigCommon.pucch_ConfigCommon.deltaPUCCH_Shift : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.pucch_ConfigCommon.nRB_CQI          : 1
+[RRC][I][dump_sib2] radioResourceConfigCommon.pucch_ConfigCommon.nCS_AN           : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.pucch_ConfigCommon.n1PUCCH_AN       : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.soundingRS_UL_ConfigCommon.present : raw:1 decoded:release
+[RRC][I][dump_sib2] radioResourceConfigCommon.uplinkPowerControlCommon.p0_NominalPUSCH   : -90
+[RRC][I][dump_sib2] radioResourceConfigCommon.uplinkPowerControlCommon.alpha             : 7
+[RRC][I][dump_sib2] radioResourceConfigCommon.uplinkPowerControlCommon.p0_NominalPUCCH   : -96
+[RRC][I][dump_sib2] radioResourceConfigCommon.uplinkPowerControlCommon.deltaFList_PUCCH.deltaF_PUCCH_Format1  : 2
+[RRC][I][dump_sib2] radioResourceConfigCommon.uplinkPowerControlCommon.deltaFList_PUCCH.deltaF_PUCCH_Format1b : 1
+[RRC][I][dump_sib2] radioResourceConfigCommon.uplinkPowerControlCommon.deltaFList_PUCCH.deltaF_PUCCH_Format2  : 1
+[RRC][I][dump_sib2] radioResourceConfigCommon.uplinkPowerControlCommon.deltaFList_PUCCH.deltaF_PUCCH_Format2a : 1
+[RRC][I][dump_sib2] radioResourceConfigCommon.uplinkPowerControlCommon.deltaFList_PUCCH.deltaF_PUCCH_Format2b : 1
+[RRC][I][dump_sib2] radioResourceConfigCommon.uplinkPowerControlCommon.deltaPreambleMsg3 : 6
+[RRC][I][dump_sib2] radioResourceConfigCommon.ul_CyclicPrefixLength : 0
+[RRC][I][dump_sib2] ue_TimersAndConstants.t300 : 5
+[RRC][I][dump_sib2] ue_TimersAndConstants.t301 : 5
+[RRC][I][dump_sib2] ue_TimersAndConstants.t310 : 5
+[RRC][I][dump_sib2] ue_TimersAndConstants.n310 : 7
+[RRC][I][dump_sib2] ue_TimersAndConstants.t311 : 3
+[RRC][I][dump_sib2] ue_TimersAndConstants.n311 : 0
+[RRC][I][dump_sib2] freqInfo.ul_CarrierFreq             : not defined
+[RRC][I][dump_sib2] freqInfo.ul_Bandwidth               : not defined
+[RRC][I][dump_sib2] freqInfo.additionalSpectrumEmission : 1
+[RRC][I][dump_sib2] mbsfn_SubframeConfigList : not defined
+[RRC][I][dump_sib2] timeAlignmentTimerCommon : 7
+[RRC][I][dump_sib2] lateNonCriticalExtension : not defined
+[RRC][I][dump_sib2] ssac_BarringForMMTEL_Voice_r9 : not defined
+[RRC][I][dump_sib2] ssac_BarringForMMTEL_Video_r9 : not defined
+[RRC][I][dump_sib2] ac_BarringForCSFB_r10 : not defined
+[RRC][I][decode_SI] [FRAME 00953][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (SIB2 params  eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[PHY][I][phy_config_sib2_ue] [UE0] Applying radioResourceConfigCommon from eNB0
+[RRC][I][rrc_ue_generate_RRCConnectionRequest] [UE 0] : Frame 953, Logical Channel UL-CCCH (SRB0), Generating RRCConnectionRequest (bytes 6, eNB 0)
+[RRC][I][decode_SI] [UE 0] Received SIB1/SIB2/SIB3 Switching to RRC_SI_RECEIVED
+[RRC][I][decode_SI] [UE 0] Frame 953 Found SIB3 from eNB 0
+[RRC][I][dump_sib3] Dumping SIB3 (see TS36.331 V8.21.0)
+[RRC][I][dump_sib3] cellReselectionInfoCommon.q_Hyst : raw:4  decoded:4 dB
+[RRC][I][dump_sib3] cellReselectionInfoCommon.speedStateReselectionPars : not defined
+[RRC][I][dump_sib3] cellReselectionServingFreqInfo.s_NonIntraSearch : not defined
+[RRC][I][dump_sib3] cellReselectionServingFreqInfo.threshServingLow : 31
+[RRC][I][dump_sib3] cellReselectionServingFreqInfo.cellReselectionPriority : 7
+[RRC][I][dump_sib3] intraFreqCellReselectionInfo.q_RxLevMin : -70
+[RRC][I][dump_sib3] intraFreqCellReselectionInfo.p_Max : not defined
+[RRC][I][dump_sib3] intraFreqCellReselectionInfo.s_IntraSearch : 31
+[RRC][I][dump_sib3] intraFreqCellReselectionInfo.allowedMeasBandwidth : 0
+[RRC][I][dump_sib3] intraFreqCellReselectionInfo.presenceAntennaPort1 : 0
+[RRC][I][dump_sib3] intraFreqCellReselectionInfo.neighCellConfig : 0
+[RRC][I][dump_sib3] intraFreqCellReselectionInfo.t_ReselectionEUTRA : 1
+[RRC][I][dump_sib3] intraFreqCellReselectionInfo.t_ReselectionEUTRA_SF : not defined
+[RRC][I][decode_SI] SIStatus 7, SIcnt 1/1
+[PHY][I][ue_prach_procedures] mode 0
+[PHY][I][ue_prach_procedures] [UE  0][RAPROC] Frame 954, Subframe 1 : Generating PRACH, preamble 14,PL 67,  P0_PRACH -37, TARGET_RECEIVED_POWER -104 dBm, PRACH TDD Resource index 0, RA-RNTI 2
+[PHY][I][ue_prach_procedures] [UE  0][RAPROC] Frame 954, subframe 1: Generating PRACH (eNB 0) preamble index 14 for UL, TX power -37 dBm (PL 67 dB), l3msg 
+[MAC][I][ue_scheduler] Received RRC_MAC_CCCH_DATA_REQ from TASK_RRC_UE: instance 0, frameP 954, eNB_index 0
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 954, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[MAC][I][ue_process_rar] [eNB 0][RAPROC] Frame 955 Received RAR (4e|00.10.35.4c.ae.ff) for preamble 14/14
+[PHY][I][process_timing_advance_rar] [UE 0] AbsoluteSubFrame 955.0, received (rar) timing_advance 4
+[PHY][I][ue_ulsch_uespec_procedures] [UE  0][RAPROC] Frame 955, Subframe 6 Generating (RRCConnectionRequest) Msg3 (nb_rb 2, first_rb 1, round 0, rvidx 0) Msg3: 20.6.1f|5b.85.55.65.39.16
+[PHY][I][pusch_power_cntl] [UE  0][RAPROC] AbsSubframe 955.6: Msg3 (2 PRBs) Po_PUSCH -32 dBm (-10400,301,100*PL=6700,0,200)
+[MAC][I][ue_scheduler] Frame 955: Contention resolution timer 0/48
+[MAC][I][ue_scheduler] Frame 955: Contention resolution timer 1/48
+[MAC][I][ue_scheduler] Frame 955: Contention resolution timer 2/48
+[MAC][I][ue_scheduler] Frame 956: Contention resolution timer 3/48
+[MAC][I][ue_scheduler] Frame 956: Contention resolution timer 4/48
+[MAC][I][ue_scheduler] Frame 956: Contention resolution timer 5/48
+[MAC][I][ue_scheduler] Frame 956: Contention resolution timer 6/48
+[PHY][I][rx_phich] [UE  0][PUSCH 4][RAPROC] Frame 956 subframe 0 Msg3 PHICH, received ACK (-400) nseq 1, ngroup 0
+
+[MAC][I][ue_scheduler] Frame 956: Contention resolution timer 7/48
+[MAC][I][ue_scheduler] Frame 956: Contention resolution timer 8/48
+[MAC][I][ue_scheduler] Frame 956: Contention resolution timer 9/48
+[MAC][I][ue_scheduler] Frame 956: Contention resolution timer 10/48
+[MAC][I][ue_scheduler] Frame 956: Contention resolution timer 11/48
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 956, subframe 5: Received DCI with CRNTI aeff => Mode PUSCH
+[MAC][I][ue_send_sdu] [UE 0][RAPROC] Frame 956 : received contention resolution msg: 5b.85.55.65.39.16, Terminating RA procedure
+[MAC][I][ue_send_sdu] [UE 0][RAPROC] Frame 956 : Clearing RA_active flag
+[MAC][I][ue_send_sdu] [UE 0][RAPROC] Frame 956 : Clearing contention resolution timer
+[PHY][I][ra_succeeded] [UE 0][RAPROC] Random-access procedure succeeded. Set C-RNTI = Temporary C-RNTI
+[RRC][I][rrc_ue_decode_ccch] [UE0][RAPROC] Frame 956 : Logical Channel DL-CCCH (SRB0), Received RRCConnectionSetup RNTI aeff
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] Save physicalConfigDedicated if present 
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] Init physicalConfigDedicated UE_rrc_inst to radioResourceConfigDedicated->physicalConfigDedicated
+[34m[PDCP][N][pdcp_config_req_asn1] [FRAME 00956][ UE][MOD 00][RNTI aeff][SRB 01]  Action ADD  LCID 1 (SRB id 1) configured with SN size 5 bits and RLC AM
+[0m[RLC][I][ITTI 13][rrc_rlc_add_rlc] [FRAME 00956][ UE][MOD 00][RNTI aeff] [SRB 1] rrc_rlc_add_rlc  SRB
+[RLC][I][ITTI 13][rlc_am_configure] [FRAME 00956][ UE][MOD 00][RNTI aeff][SRB AM 01][CONFIGURE] max_retx_threshold 4 poll_pdu 4 poll_byte 65535 t_poll_retransmit 80 t_reordering 35 t_status_prohibit 0
+[RRC][I][rrc_ue_establish_srb1] [UE 0], CONFIG_SRB1 1 corresponding to eNB_index 0
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] [FRAME 00956][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ  (SRB1 eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Applying RRC logicalChannelConfig from eNB0
+[PHY][I][phy_config_dedicated_ue] Transmission Mode 1
+[PHY][I][phy_config_dedicated_ue] C-RNTI aeff aeff 
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] [UE 0] State = RRC_CONNECTED (eNB 0)
+[RRC][I][rrc_ue_generate_RRCConnectionSetupComplete] [UE 0][RAPROC] Frame 956 : Logical Channel UL-DCCH (SRB1), Generating RRCConnectionSetupComplete (bytes59, eNB 0)
+[PDCP][I][pdcp_run] [FRAME 00956][ UE][MOD 00][RNTI aeff]Received RRC_DCCH_DATA_REQ from TASK_RRC_UE: instance 0, rb_id 1, muiP 0, confirmP 0, mode 1
+[RLC][I][UE_0_proc_0][rlc_am_data_req] [FRAME 00956][ UE][MOD 00][RNTI aeff][SRB AM 01] RLC_AM_DATA_REQ size 64 Bytes,  NB SDU 1 current_sdu_index=0 next_sdu_index=1 conf 0 mui 0 vtA 0 vtS 0
+[34m[RRC][N][rrc_data_ind] [UE 0] Frame 958: received a DCCH 1 message on SRB 1 with Size 3 from eNB 0
+[0m[RRC][I][rrc_ue_decode_dcch] [UE 0] Received securityModeCommand (eNB 0)
+[RRC][I][rrc_ue_process_securityModeCommand] [UE 0] Frame 958: Receiving from SRB1 (DL-DCCH), Processing securityModeCommand (eNB 0)
+[RRC][I][rrc_ue_process_securityModeCommand] [UE 0] Security algorithm is set to eea0
+[RRC][I][rrc_ue_process_securityModeCommand] [UE 0] Integrity protection algorithm is set to none
+[RRC][I][rrc_ue_process_securityModeCommand] [UE 0] Frame 958: Receiving from SRB1 (DL-DCCH), encoding securityModeComplete (eNB 0)
+[PDCP][I][pdcp_run] [FRAME 00958][ UE][MOD 00][RNTI aeff]Received RRC_DCCH_DATA_REQ from TASK_RRC_UE: instance 0, rb_id 1, muiP 1, confirmP 0, mode 1
+[RLC][I][UE_0_proc_1][rlc_am_data_req] [FRAME 00958][ UE][MOD 00][RNTI aeff][SRB AM 01] RLC_AM_DATA_REQ size 7 Bytes,  NB SDU 2 current_sdu_index=1 next_sdu_index=2 conf 0 mui 1 vtA 3 vtS 3
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 960, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[PHY][I][check_dci_format1_1a_coherency] bad dci rballoc rballoc 3219  RIV_max 324 
+bad DCI 1 !!! 
+[1;31m[PHY][E][ue_pdcch_procedures] [UE  0] Frame 961, subframe 1: Problem in DCI!
+[0m[34m[RRC][N][rrc_data_ind] [UE 0] Frame 961: received a DCCH 1 message on SRB 1 with Size 3 from eNB 0
+[0m[RRC][I][rrc_ue_decode_dcch] [UE 0] Received Capability Enquiry (eNB 0)
+[RRC][I][rrc_ue_process_ueCapabilityEnquiry] [UE 0] Frame 961: Receiving from SRB1 (DL-DCCH), Processing UECapabilityEnquiry (eNB 0)
+[PDCP][I][pdcp_run] [FRAME 00961][ UE][MOD 00][RNTI aeff]Received RRC_DCCH_DATA_REQ from TASK_RRC_UE: instance 0, rb_id 1, muiP 2, confirmP 0, mode 1
+[RLC][I][UE_0_proc_0][rlc_am_data_req] [FRAME 00961][ UE][MOD 00][RNTI aeff][SRB AM 01] RLC_AM_DATA_REQ size 24 Bytes,  NB SDU 3 current_sdu_index=2 next_sdu_index=3 conf 0 mui 2 vtA 4 vtS 4
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 961, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 962, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[34m[RRC][N][rrc_data_ind] [UE 0] Frame 963: received a DCCH 1 message on SRB 1 with Size 40 from eNB 0
+[0m[RRC][I][rrc_ue_process_rrcConnectionReconfiguration] [UE 0] Frame 963: Receiving from SRB1 (DL-DCCH), Processing RRCConnectionReconfiguration (eNB 0)
+[RRC][I][rrc_ue_process_rrcConnectionReconfiguration] Radio Resource Configuration is present
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] Save physicalConfigDedicated if present 
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update pdsch_ConfigDedicated config 
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update pusch_ConfigDedicated config 
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update pucch_ConfigDedicated config 
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update cqi_ReportConfig config (size=48,48)
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update cqi_ReportPeriodic config (size=152,152)
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update schedulingRequestConfig config 
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Keep old config for soundingRS_UL_ConfigDedicated
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update antennaInfo config 
+[PHY][I][rrc_ue_update_radioResourceConfigDedicated] New Transmission Mode 0 
+[PHY][I][rrc_ue_update_radioResourceConfigDedicated] Configured Transmission Mode 0 
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update uplinkPowerControlDedicated config 
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update tpc_PDCCH_ConfigPUCCH config 
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update tpc_PDCCH_ConfigPUSCH config 
+[34m[PDCP][N][pdcp_config_req_asn1] [FRAME 00963][ UE][MOD 00][RNTI aeff][SRB 02]  Action ADD  LCID 2 (SRB id 2) configured with SN size 5 bits and RLC AM
+[0m[RLC][I][ITTI 13][rrc_rlc_add_rlc] [FRAME 00963][ UE][MOD 00][RNTI aeff] [SRB 2] rrc_rlc_add_rlc  SRB
+[RLC][I][ITTI 13][rlc_am_configure] [FRAME 00963][ UE][MOD 00][RNTI aeff][SRB AM 02][CONFIGURE] max_retx_threshold 32 poll_pdu 8 poll_byte 16960 t_poll_retransmit 15 t_reordering 35 t_status_prohibit 10
+[RRC][I][rrc_ue_establish_srb2] [UE 0], CONFIG_SRB2 2 corresponding to eNB_index 0
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] Applying Explicit SRB2 logicalChannelConfig
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] [FRAME 00963][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ  (SRB2 eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Applying RRC logicalChannelConfig from eNB0
+[MAC][I][rrc_mac_config_req] [CONFIG][UE0] Applying RRC macMainConfig from eNB0
+[PHY][I][phy_config_dedicated_ue] Transmission Mode 1
+[PHY][I][phy_config_dedicated_ue] Disable SIB MIB decoding 
+[PHY][I][phy_config_dedicated_ue] C-RNTI aeff aeff 
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] [UE 0] default DRB = 1
+[34m[PDCP][N][pdcp_config_req_asn1] [FRAME 00963][ UE][MOD 00][RNTI aeff][DRB 01]  Action ADD  LCID 3 (DRB id 1) configured with SN size 12 bits and RLC UM
+[0m[RLC][I][ITTI 13][rrc_rlc_add_rlc] [FRAME 00963][ UE][MOD 00][RNTI aeff] [DRB 1] rrc_rlc_add_rlc  DRB
+[RRC][I][rrc_ue_establish_drb] [UE 0] Frame 963: processing RRCConnectionReconfiguration: reconfiguring DRB 1/LCID 3
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] [FRAME 00963][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (DRB 1 eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Applying RRC logicalChannelConfig from eNB0
+[MAC][I][rrc_mac_config_req] [CONFIG][UE0] Applying RRC macMainConfig from eNB0
+[PHY][I][phy_config_dedicated_ue] Transmission Mode 1
+[PHY][I][phy_config_dedicated_ue] Disable SIB MIB decoding 
+[PHY][I][phy_config_dedicated_ue] C-RNTI aeff aeff 
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] [UE 0] State = RRC_CONNECTED (eNB 0)
+[RRC][I][rrc_ue_generate_RRCConnectionReconfigurationComplete] [FRAME 00963][ UE][MOD 00][RNTI aeff] Logical Channel UL-DCCH (SRB1), Generating RRCConnectionReconfigurationComplete (bytes 2, eNB_index 0)
+[RRC][I][rrc_ue_decode_dcch] [UE 0] State = RRC_RECONFIGURED (eNB 0)
+[PDCP][I][pdcp_run] [FRAME 00963][ UE][MOD 00][RNTI aeff]Received RRC_DCCH_DATA_REQ from TASK_RRC_UE: instance 0, rb_id 1, muiP 3, confirmP 0, mode 1
+[RLC][I][UE_0_proc_0][rlc_am_data_req] [FRAME 00963][ UE][MOD 00][RNTI aeff][SRB AM 01] RLC_AM_DATA_REQ size 7 Bytes,  NB SDU 4 current_sdu_index=3 next_sdu_index=4 conf 0 mui 3 vtA 5 vtS 5
+[34m[RRC][N][rrc_data_ind] [UE 0] Frame 965: received a DCCH 1 message on SRB 1 with Size 17 from eNB 0
+[0m[RRC][I][rrc_ue_process_rrcConnectionReconfiguration] [UE 0] Frame 965: Receiving from SRB1 (DL-DCCH), Processing RRCConnectionReconfiguration (eNB 0)
+[RRC][I][rrc_ue_process_rrcConnectionReconfiguration] Radio Resource Configuration is present
+[34m[PDCP][N][pdcp_config_req_asn1] [FRAME 00965][ UE][MOD 00][RNTI aeff][DRB 02]  Action ADD  LCID 4 (DRB id 2) configured with SN size 12 bits and RLC UM
+[0m[34m[PDCP][N][pdcp_config_req_asn1] [FRAME 00965][ UE][MOD 00][RNTI aeff][DRB 03]  Action ADD  LCID 5 (DRB id 3) configured with SN size 12 bits and RLC UM
+[0m[RLC][I][ITTI 13][rrc_rlc_add_rlc] [FRAME 00965][ UE][MOD 00][RNTI aeff] [DRB 2] rrc_rlc_add_rlc  DRB
+[RLC][I][ITTI 13][rrc_rlc_add_rlc] [FRAME 00965][ UE][MOD 00][RNTI aeff] [DRB 3] rrc_rlc_add_rlc  DRB
+[RRC][I][rrc_ue_establish_drb] [UE 0] Frame 965: processing RRCConnectionReconfiguration: reconfiguring DRB 2/LCID 4
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] [FRAME 00965][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (DRB 2 eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Applying RRC logicalChannelConfig from eNB0
+[MAC][I][rrc_mac_config_req] [CONFIG][UE0] Applying RRC macMainConfig from eNB0
+[PHY][I][phy_config_dedicated_ue] Transmission Mode 1
+[PHY][I][phy_config_dedicated_ue] Disable SIB MIB decoding 
+[PHY][I][phy_config_dedicated_ue] C-RNTI aeff aeff 
+[RRC][I][rrc_ue_establish_drb] [UE 0] Frame 965: processing RRCConnectionReconfiguration: reconfiguring DRB 3/LCID 5
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] [FRAME 00965][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (DRB 3 eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Applying RRC logicalChannelConfig from eNB0
+[MAC][I][rrc_mac_config_req] [CONFIG][UE0] Applying RRC macMainConfig from eNB0
+[PHY][I][phy_config_dedicated_ue] Transmission Mode 1
+[PHY][I][phy_config_dedicated_ue] Disable SIB MIB decoding 
+[PHY][I][phy_config_dedicated_ue] C-RNTI aeff aeff 
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] [UE 0] State = RRC_CONNECTED (eNB 0)
+[RRC][I][rrc_ue_generate_RRCConnectionReconfigurationComplete] [FRAME 00965][ UE][MOD 00][RNTI aeff] Logical Channel UL-DCCH (SRB1), Generating RRCConnectionReconfigurationComplete (bytes 2, eNB_index 0)
+[RRC][I][rrc_ue_decode_dcch] [UE 0] State = RRC_RECONFIGURED (eNB 0)
+[PDCP][I][pdcp_run] [FRAME 00965][ UE][MOD 00][RNTI aeff]Received RRC_DCCH_DATA_REQ from TASK_RRC_UE: instance 0, rb_id 1, 
