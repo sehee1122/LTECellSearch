@@ -1,0 +1,127 @@
+---- pthread_create Matches (126 in 48 files) ----
+Abstraction_thread_start.c (openair2\util\lfds\liblfds6.1.1\test\src):  rv_create = pthread_create( thread_state, &attr, thread_function, thread_user_state );
+As_simulator.c (openair3\nas\test\as_simulator):  if ( pthread_create (&ue_mngr, &attr, _as_simulator_ue_mngr, NULL) != 0 ) {
+As_simulator.c (openair3\nas\test\as_simulator):  if ( pthread_create (&mme_mngr, &attr, _as_simulator_mme_mngr, NULL) != 0 ) {
+Cli_server.c (openair2\util\cli):  if (pthread_create(&cli_server_listener, NULL, cli_server_listen, NULL)) {
+Fapi_stub.cpp (nfapi\open-nfapi\pnf_sim\src):		pthread_create(&fapi_thread, NULL, &fapi_thread_start, instance);
+Flexran_agent.c (openair2\enb_app):  if (pthread_create(&t, &att, f, b)) { 
+Flexran_agent.c (openair2\enb_app):    fprintf(stderr, "pthread_create err\n"); 
+Intertask_interface.cpp (common\utils\ocp_itti):    AssertFatal ( pthread_create (&t->thread, NULL, start_routine, args_p) ==0,
+Link_manager.c (openair2\util\async_if):  if (pthread_create(&t, &attr, link_manager_sender_thread, ret))
+Link_manager.c (openair2\util\async_if):  if (pthread_create(&t, &attr, link_manager_receiver_thread, ret))
+Local_tracer.c (common\utils\t):  if (pthread_create(&t, &att, f, data))
+Local_tracer.c (common\utils\t):    { fprintf(stderr, "pthread_create err\n"); exit(1); }
+Lte-enb.c (targets\rt\user):      pthread_create( &proc_rxtx[0].pthread_rxtx, attr0, eNB_thread_rxtx, proc );
+Lte-enb.c (targets\rt\user):      pthread_create( &proc_rxtx[1].pthread_rxtx, attr1, tx_thread, proc);
+Lte-enb.c (targets\rt\user):    pthread_create( &proc->pthread_prach, attr_prach, eNB_thread_prach, eNB );
+Lte-enb.c (targets\rt\user):    pthread_create( &proc->pthread_prach_br, attr_prach_br, eNB_thread_prach_br, eNB );
+Lte-enb.c (targets\rt\user):    if (opp_enabled == 1) pthread_create(&proc->process_stats_thread,NULL,process_stats_thread,(void*)eNB);
+Lte-hwlat2.c (targets\rt\user)://    AssertFatal(0 == pthread_create(&UE->proc.pthread_ue, &UE->proc.attr_ue, UE_thread, (void*)UE), "");
+Lte-hwlat2.c (targets\rt\user):    AssertFatal( 0 == pthread_create( &pthread_ue, &attr_ue, UE_thread, NULL ), "" );
+Lte-hwlat2.c (targets\rt\user):    pthread_create( &rxtx_proc[i]->pthread_rxtx, NULL, UE_thread_rxn_txnp4, rtd ); // pthread_create( &UE->proc.proc_rxtx[i].pthread_rxtx, NULL, UE_thread_rxn_txnp4, rtd);
+Lte-ru.c (targets\rt\user):  pthread_create( &proc->pthread_FH, attr_FH, ru_thread, (void*)ru );
+Lte-ru.c (targets\rt\user):    pthread_create(&proc->pthread_pre_scd, NULL, pre_scd_thread, (void*)ru);
+Lte-ru.c (targets\rt\user):    pthread_create( &proc->pthread_phy_tx, NULL, eNB_thread_phy_tx, (void*)ru );
+Lte-ru.c (targets\rt\user):    pthread_create( &proc->pthread_rf_tx, NULL, rf_tx, (void*)ru );
+Lte-ru.c (targets\rt\user):    pthread_create( &proc->pthread_emulateRF, attr_emulateRF, emulatedRF_thread, (void*)proc );
+Lte-ru.c (targets\rt\user):    pthread_create( &proc->pthread_FH1, attr_FH1, ru_thread_tx, (void*)ru );
+Lte-ru.c (targets\rt\user):    pthread_create( &proc->pthread_prach, attr_prach, ru_thread_prach, (void*)ru );
+Lte-ru.c (targets\rt\user):    pthread_create( &proc->pthread_prach_br, attr_prach_br, ru_thread_prach_br, (void*)ru );
+Lte-ru.c (targets\rt\user):    if (ru->is_slave == 1) pthread_create( &proc->pthread_synch, attr_synch, ru_thread_synch, (void*)ru);
+Lte-ru.c (targets\rt\user):		pthread_create( &proc->pthread_asynch_rxtx, attr_asynch, ru_thread_asynch_rxtx, (void*)ru );
+Lte-ru.c (targets\rt\user):    pthread_create( &proc->pthread_prach, attr_prach, ru_thread_prach, (void*)ru );
+Lte-ru.c (targets\rt\user):  if (opp_enabled == 1) pthread_create(&ru->ru_stats_thread,NULL,ru_stats_thread,(void*)ru); 
+Lte-softmodem.c (targets\rt\user):    ret = pthread_create(&forms_thread, NULL, scope_thread, NULL);
+Lte-ue.c (targets\rt\user):    AssertFatal(0 == pthread_create(&UE->proc.pthread_ue,
+Lte-ue.c (targets\rt\user):    pthread_create(&UE->proc.proc_rxtx[i].pthread_rxtx, NULL, UE_thread_rxn_txnp4, rtd);
+Lte-ue.c (targets\rt\user):    //pthread_create(&UE->proc.proc_rxtx[i].pthread_slot0_dl_processing,NULL,UE_thread_slot0_dl_processing, rtd);
+Lte-ue.c (targets\rt\user):    pthread_create(&UE->proc.proc_rxtx[i].pthread_slot1_dl_processing,NULL,UE_thread_slot1_dl_processing, rtd);
+Lte-ue.c (targets\rt\user):  pthread_create(&UE->proc.pthread_synch,NULL,UE_thread_synch,(void*)UE);
+Lte-ue.c (targets\rt\user):    pthread_create(&UE->proc.proc_rxtx[i].pthread_rxtx, NULL, UE_phy_stub_single_thread_rxn_txnp4, rtd);
+Lte-ue.c (targets\rt\user):  //pthread_create(&UE->proc.pthread_synch,NULL,UE_thread_synch,(void*)UE);
+Lte-ue.c (targets\rt\user):    pthread_create(&UE->proc.proc_rxtx[i].pthread_rxtx, NULL, UE_phy_stub_thread_rxn_txnp4, rtd);
+Lte-ue.c (targets\rt\user):  //pthread_create(&UE->proc.pthread_synch,NULL,UE_thread_synch,(void*)UE);
+Lte-ue.c (targets\rt\user):  pthread_create(&phy_stub_ticking->pthread_timer, NULL, &timer_thread, NULL);
+Lte-uesoftmodem.c (targets\rt\user):    ret = pthread_create(&forms_thread, NULL, scope_thread, NULL);
+Mac.cpp (nfapi\open-nfapi\vnf_sim\src):		pthread_create(&mac_rx_thread, NULL, &mac_rx_thread_start, instance);
+Main.cpp (nfapi\open-nfapi\pnf_sim\src):		pthread_create(&p7_thread, NULL, &pnf_p7_thread_start, p7_config);
+Main.cpp (nfapi\open-nfapi\vnf_sim\src):        pthread_create(&vnf_p7_start_pthread, NULL, &vnf_p7_start_thread, p7_vnf->config.get());
+Main.cpp (nfapi\open-nfapi\vnf_sim\src):		pthread_create(&vnf_p7_thread, NULL, &vnf_p7_thread_start, &p7_vnf);
+Mobipass.c (targets\arch\mobipass):  if (pthread_create(&t, &att, f, data))
+Mobipass.c (targets\arch\mobipass):    { fprintf(stderr, "pthread_create err\n"); exit(1); }
+Multicast_link.c (openair1\simulation\eth_transport):  if (pthread_create (&main_loop_thread, NULL, multicast_link_main_loop,
+Multicast_link.c (openair1\simulation\eth_transport):    LOG_E(PHY, "[MULTICAST LINK] Error in pthread_create (%d:%s)\n",
+Nas_timer.c (openair3\nas\common\util):  int rc = pthread_create (&te->pid, &attr, te->cb, te->args);
+Nfapi_pnf.c (nfapi\oai_integration):    pthread_create(&p7_thread, NULL, &pnf_p7_thread_start, p7_config);
+Nfapi_pnf.c (nfapi\oai_integration):  pthread_create(&pnf_start_pthread, NULL, &pnf_start_thread, config);
+Nfapi_vnf.c (nfapi\oai_integration):  pthread_create(&vnf_p7_start_pthread, NULL, &vnf_p7_start_thread, p7_vnf->config);
+Nfapi_vnf.c (nfapi\oai_integration):    pthread_create(&vnf_p7_thread, NULL, &vnf_p7_thread_start, p7_vnf);
+Nfapi_vnf.c (nfapi\oai_integration):  pthread_create(&vnf_start_pthread, NULL, (void*)&vnf_start_thread, config);
+Nr-gnb.c (targets\rt\user):      pthread_create( &L1_proc->pthread, attr0, gNB_L1_thread, gNB );
+Nr-gnb.c (targets\rt\user):      pthread_create( &L1_proc_tx->pthread, attr1, gNB_L1_thread_tx, gNB);
+Nr-gnb.c (targets\rt\user):    //pthread_create( &proc->pthread_prach, attr_prach, gNB_thread_prach, gNB );
+Nr-ru.c (targets\rt\user):  pthread_create( &proc->pthread_FH, attr_FH, ru_thread, (void*)ru );
+Nr-ru.c (targets\rt\user):    pthread_create( &proc->pthread_FH1, attr_FH1, ru_thread_tx, (void*)ru );
+Nr-ru.c (targets\rt\user):    pthread_create( &proc->pthread_emulateRF, attr_emulateRF, emulatedRF_thread, (void*)proc );
+Nr-ru.c (targets\rt\user):    pthread_create( &proc->pthread_prach, attr_prach, ru_thread_prach, (void*)ru );
+Nr-ru.c (targets\rt\user)://    if (ru->is_slave == 1) pthread_create( &proc->pthread_synch, attr_synch, ru_thread_synch, (void*)ru);
+Nr-ru.c (targets\rt\user):	(ru->function == NGFI_RRU_IF4p5)) pthread_create( &proc->pthread_asynch_rxtx, attr_asynch, ru_thread_asynch_rxtx, (void*)ru );
+Nr-ru.c (targets\rt\user):    pthread_create( &proc->pthread_prach, attr_prach, ru_thread_prach, (void*)ru );
+Nr-ru.c (targets\rt\user):  if (opp_enabled == 1) pthread_create(&ru->ru_stats_thread,NULL,ru_stats_thread,(void*)ru); 
+Nr-softmodem.c (targets\rt\user):    ret = pthread_create(&forms_thread, NULL, scope_thread, NULL);
+Nr-ue.c (targets\rt\user):    AssertFatal(0 == pthread_create(&UE->proc.pthread_ue,
+Nr-ue.c (targets\rt\user):    pthread_create(&UE->proc.proc_rxtx[i].pthread_rxtx, NULL, UE_thread_rxn_txnp4, rtd);
+Nr-ue.c (targets\rt\user):    pthread_create(&UE->proc.proc_rxtx[i].pthread_dlsch_td,NULL,nr_dlsch_decoding_2thread0, rtd);
+Nr-ue.c (targets\rt\user):    pthread_create(&UE->proc.proc_rxtx[i].pthread_dlsch_td1,NULL,nr_dlsch_decoding_2thread1, rtd);
+Nr-ue.c (targets\rt\user):    //pthread_create(&UE->proc.proc_rxtx[i].pthread_slot0_dl_processing,NULL,UE_thread_slot0_dl_processing, rtd);
+Nr-ue.c (targets\rt\user):    pthread_create(&UE->proc.proc_rxtx[i].pthread_slot1_dl_processing,NULL,UE_thread_slot1_dl_processing, rtd);
+Nr-ue.c (targets\rt\user):  pthread_create(&UE->proc.pthread_synch,NULL,UE_thread_synch,(void *)UE);
+Nr-uesoftmodem.c (targets\rt\user):        ret = pthread_create(&forms_thread, NULL, scope_thread, NULL);
+Nr_ru_procedures.c (openair1\sched_nr):  pthread_create(&proc->pthread_feptx, attr_feptx, nr_feptx_thread, (void*)ru);
+Openair0_lib.c (targets\arch\exmimo\userspace\lib):  pthread_create(&priv->watchdog,&priv->watchdog_attr,watchdog_thread,dev);
+Openair0_lib.c (targets\arch\exmimo\userspace\lib):  pthread_create(&priv->watchdog,NULL,watchdog_thread,dev);
+Otg_rx_socket.c (openair2\util\otg):              if (pthread_create(&id, NULL, (void *)recv_ip4_tcp, (void*)csock))
+Otg_rx_socket.c (openair2\util\otg):                LOG_W(OTG,"SOCKET:: TCP-IP4 ::pthread_create OK!\n");
+Otg_rx_socket.c (openair2\util\otg):                LOG_W(OTG,"SOCKET:: TCP-IP4 ::Error in pthread_create \n");
+Pdcp_netlink.c (openair2\layer2\pdcp_v10.1.0):    if (pthread_create(&pdcp_netlink_thread, &attr, pdcp_netlink_thread_fct, NULL) != 0) {
+Pdcp_thread.c (openair2\layer2\pdcp_v10.1.0):  error_code = pthread_create(&pdcp_thread,
+phy_procedures_lte_eNb.c (openair1\sched):  pthread_create(&proc->pthread_td, &proc->attr_td, td_thread, (void*)&proc->tdp);
+phy_procedures_lte_eNb.c (openair1\sched):    pthread_create(&proc->tep[i].pthread_te, &proc->tep[i].attr_te, te_thread, (void*)&proc->tep[i]);
+Pnf_cunit_main.c (nfapi\open-nfapi\pnf\tests):	pthread_create(&thread, NULL, &pnf_test_start_thread, config);
+Pnf_cunit_main.c (nfapi\open-nfapi\pnf\tests):	pthread_create(&thread, NULL, &pnf_test_start_thread, config);
+Pnf_cunit_main.c (nfapi\open-nfapi\pnf\tests):	pthread_create(&thread, NULL, &pnf_test_start_thread, config);
+Pnf_cunit_main.c (nfapi\open-nfapi\pnf\tests):		pthread_create(&phy_info->thread, NULL, &pnf_test_start_p7_thread, phy_info->config);
+Pnf_cunit_main.c (nfapi\open-nfapi\pnf\tests):	pthread_create(&thread, NULL, &pnf_test_start_thread, config);
+Pnf_cunit_main.c (nfapi\open-nfapi\pnf\tests):	pthread_create(&thread, NULL, &pnf_test_start_thread, config);
+Pnf_cunit_main.c (nfapi\open-nfapi\pnf\tests):	pthread_create(&thread, NULL, &pnf_test_start_thread, config);
+Pnf_cunit_main.c (nfapi\open-nfapi\pnf\tests):	pthread_create(&thread, NULL, &pnf_test_start_thread, config);
+Pnf_cunit_main.c (nfapi\open-nfapi\pnf\tests):	pthread_create(&thread, NULL, &pnf_test_start_thread, config);
+Pnf_cunit_main.c (nfapi\open-nfapi\pnf\tests):	pthread_create(&thread, NULL, &pnf_test_start_thread, config);
+Pnf_cunit_main.c (nfapi\open-nfapi\pnf\tests):	pthread_create(&thread, NULL, &pnf_test_start_thread, config);
+Probe.c (openair2\util\opt):  ret = pthread_create(&opt_listener.thread, NULL, opt_listener_thread, NULL);
+Rfsim.c (targets\rt\user):  AssertFatal(0 == pthread_create(&sim.rfsim_thread,
+rrc_UE.c (openair2\rrc\lte):   if (pthread_create(&rrc_control_socket_thread, &attr, rrc_control_socket_thread_fct, NULL) != 0) {
+rrc_UE.c (openair2\rrc\lte):              if( pthread_create( &notification_thread , NULL ,  send_UE_status_notification , (void*) &sockfd) < 0)
+Ru_procedures.c (openair1\sched):  pthread_create(&proc->pthread_feptx, attr_feptx, feptx_thread, (void*)ru);
+Ru_procedures.c (openair1\sched):  pthread_create(&proc->pthread_fep, attr_fep, fep_thread, (void*)ru);
+Socket.c (common\utils\itti_analyzer\libbuffers):    if (pthread_create(&socket_data->thread, NULL, socket_thread_fct, socket_data) != 0) {
+T.c (common\utils\t):  if (pthread_create(&t, &att, f, data))
+T.c (common\utils\t):    { fprintf(stderr, "pthread_create err\n"); exit(1); }
+Telnetsrv.c (common\utils\telnetsrv):   if(pthread_create(&telnetparams.telnet_pthread,NULL, (void *(*)(void *))run_telnetsrv, NULL) != 0)
+Telnetsrv.c (common\utils\telnetsrv):     fprintf(stderr,"[TELNETSRV] Error %s on pthread_create call\n",strerror(errno));
+Test_porting_abstraction_layer_thread_start.c (openair2\util\lfds\liblfds7.0.0\test\src):                             - pthread_create requires POSIX
+Test_porting_abstraction_layer_thread_start.c (openair2\util\lfds\liblfds7.0.0\test\src):    rv = pthread_create( thread_state, NULL, test_pal_internal_thread_function, its );
+Test_porting_abstraction_layer_thread_start.c (openair2\util\lfds\liblfds7.0.0\test\src):                             - pthread_create requires POSIX
+Test_porting_abstraction_layer_thread_start.c (openair2\util\lfds\liblfds7.0.0\test\src):    rv_create = pthread_create( thread_state, &attr, thread_function, thread_user_state );
+UEprocess.c (openair3\nas\ue):  if (pthread_create (&user_mngr, &attr, _nas_user_mngr, &user_fd) != 0) {
+UEprocess.c (openair3\nas\ue):  if (pthread_create (&network_mngr, &attr, _nas_network_mngr,
+User_simulator.c (openair3\nas\test\user):  int rc = pthread_create (&thread_id, &attr, _receive_thread, NULL);
+User_simulator.c (openair3\nas\test\user):    perror("ERROR\t: pthread_create() failed");
+Usrp_lib.cpp (targets\arch\usrp\userspace\lib):    pthread_create(&f_thread,NULL,freq_thread,(void *)device);
+Utils.c (common\utils\t\tracer):  if (pthread_create(&t, &att, f, data))
+Utils.c (common\utils\t\tracer):    { fprintf(stderr, "pthread_create err\n"); exit(1); }
+Vcd_signal_dumper.c (common\utils\log):    if (pthread_create(&vcd_dumper_thread, NULL, vcd_dumper_thread_rt, NULL) < 0) {
+Vnf_cunit_main.c (nfapi\open-nfapi\vnf\tests):	pthread_create(&test_config->thread, NULL, &vnf_test_start_thread, test_config->p5_vnf_config);
+Vnf_cunit_main.c (nfapi\open-nfapi\vnf\tests):	pthread_create(&(vnf->thread), NULL, &vnf_test_start_p7_thread, vnf->config);
+Vnf_cunit_main.c (nfapi\open-nfapi\vnf\tests):	pthread_create(&thread, NULL, &vnf_test_start_thread, config);
+Vnf_cunit_main.c (nfapi\open-nfapi\vnf\tests):	pthread_create(&thread, NULL, &vnf_test_start_thread, config);
